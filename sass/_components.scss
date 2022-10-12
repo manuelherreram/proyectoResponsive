@@ -52,3 +52,13 @@ $color-main: #0075FF;
     display: inline;
   }
 }
+
+.icon-sm {
+  i {
+    font-size: 0.75rem;
+    padding: 0.1rem 0.25rem;
+    color: $color-main;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00000040;
+  }
+}

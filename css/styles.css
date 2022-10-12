@@ -35,4 +35,12 @@
   display: inline;
 }
 
+.icon-sm i {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.25rem;
+  color: #0075FF;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
 /*# sourceMappingURL=styles.css.map */
