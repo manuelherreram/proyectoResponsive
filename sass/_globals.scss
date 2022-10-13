@@ -1,5 +1,11 @@
 @use "components";
 
+@mixin section-display {
+  width: 100%;
+  max-width: 768px;
+  margin: auto;
+  padding: 3rem;
+}
 body
 {
 padding: 0;
@@ -21,11 +27,8 @@ margin: 0;
 
 .sec-home {
   display: flex;
-  width: 100%;
-  max-width: 768px;
-  margin: auto;
-  padding: 5rem;
   align-items: center;
+  @include section-display();
 
   .home-cta {
     flex: 1;
@@ -35,6 +38,20 @@ margin: 0;
     .home-title {
       width: 20rem;
       font-size: 3rem;
+    }
+  }
+}
+
+.sec-features {
+  @include section-display();
+  .intro {
+    text-align: center;
+    h3 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 0.8rem;
+      color: #888;
     }
   }
 }
