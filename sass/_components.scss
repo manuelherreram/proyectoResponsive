@@ -48,11 +48,13 @@ $color-footer: #F4F8FE;
 
 .main-menu {
   margin-bottom: 0;
+
   li {
     font-size: 0.75rem;
     list-style: none;
     display: inline;
     margin-right: 2rem;
+
     a {
       color: #000;
       text-decoration: none;
@@ -80,7 +82,7 @@ $color-footer: #F4F8FE;
 
   i {
     color: $color-main;
-    font-size: 7.5rem; 
+    font-size: 7.5rem;
     text-align: center;
   }
 
@@ -89,6 +91,7 @@ $color-footer: #F4F8FE;
       font-size: 2rem;
       text-align: center;
     }
+
     .text {
       color: #888;
       font-weight: 600;
@@ -109,13 +112,15 @@ $color-footer: #F4F8FE;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   i {
     color: $color-main;
     font-size: 10rem;
     padding: 0;
-   
+
   }
-  .title{
+
+  .title {
     margin-top: -1rem;
     font-size: 1.5rem;
     font-weight: 600;
